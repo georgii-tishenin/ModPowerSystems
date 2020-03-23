@@ -10,5 +10,5 @@ model DQtoABC
 equation
   v_abc =Transforms.Functions.DQtoABC(v_dq, theta);
 annotation (
-    Icon(graphics={  Rectangle(origin = {0, 10}, extent = {{-100, 90}, {100, -90}}), Text(origin = {0, 9}, extent = {{12, -19}, {-8, 13}}, textString = "DQ to ABC", fontSize = 15)}));
+    Icon(graphics = {Rectangle(origin = {0, 10}, extent = {{-100, 90}, {100, -90}}), Text(origin = {0, 9}, extent = {{12, -19}, {-8, 13}}, textString = "DQ to ABC", fontSize = 15), Text(origin = {-2, 86}, extent = {{-26, 8}, {26, -8}}, textString = "theta")}, coordinateSystem(initialScale = 0.1)));
 end DQtoABC;

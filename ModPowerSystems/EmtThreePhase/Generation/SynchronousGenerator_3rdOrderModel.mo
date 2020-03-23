@@ -1,6 +1,6 @@
 within ModPowerSystems.EmtThreePhase.Generation;
 model SynchronousGenerator_3rdOrderModel
-   extends ModPowerSystems.Base.Interfaces.RealValue.ThreePhase.OnePortGrounded;
+   extends ModPowerSystems.Base.Interfaces.RealValue.ThreePhase.OnePortGroundedInit(Vnom=V_nom);
 
   Modelica.Blocks.Interfaces.RealInput P_m_in
   annotation (Placement(transformation(extent={{-113,10},{-93,30}}),  iconTransformation(extent={{-113,10},

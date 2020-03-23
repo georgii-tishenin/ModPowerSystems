@@ -1,6 +1,6 @@
 within ModPowerSystems.EmtThreePhase.Transforms.Functions;
 
-function ABCtoDQ0_Kundur
+function ABCtoDQ0_Kundur "Amplitude invariant transform and leading second axis"
   input Real f_abc[3];
   input Real theta;
   output Real f_dq0[3];
@@ -10,10 +10,9 @@ protected
 
 algorithm
   f_dq0[:] := K_mat * f_abc[:];
-  annotation(
-    Documentation(info = "<html>
+ annotation (Documentation(info="<html>
 <p>Implemented according to [1].</p>
 <p>References:</p>
-<p>[1] J. Machowski, J. W. Bialek, und J. R. Bumby, Power system dynamics, 2nd ed. Oxford: John Wiley, 2008. </p>
+<p>[1] P. Kundur, N. J. Balu, and M. G. Lauby, Power system stability and control. New York; London: McGraw-Hill, 1994. </p>
 </html>"));
 end ABCtoDQ0_Kundur;

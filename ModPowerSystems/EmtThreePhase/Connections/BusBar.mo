@@ -2,9 +2,8 @@ within ModPowerSystems.EmtThreePhase.Connections;
 model BusBar
   extends ModPowerSystems.Base.Interfaces.RealValue.ThreePhase.OnePortGrounded;
 
-  Real Vrel[3] = v/Vnom "voltage relative to nominal voltage";
-
-  outer ModPowerSystems.Base.System system;
+  parameter SI.Voltage Vnom = 110e3 "Nominal phase-to-phase voltage";
+  Real Vrel[3] = vpp[:]/Vnom "voltage relative to nominal voltage";
 
 equation
   i = zeros(3);

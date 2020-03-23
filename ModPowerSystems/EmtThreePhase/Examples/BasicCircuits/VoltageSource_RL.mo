@@ -12,7 +12,7 @@ model VoltageSource_RL
         origin={-4,16})));
   ModPowerSystems.EmtThreePhase.Basics.Ground ground
     annotation (Placement(transformation(extent={{-62,-36},{-42,-16}})));
-  ModPowerSystems.EmtThreePhase.Basics.Inductor inductor
+  ModPowerSystems.EmtThreePhase.Basics.Inductor inductor(L = {{1e-2, 0, 0}, {0, 1e-2, 0}, {0, 0, 1e-2}}) 
     annotation (Placement(transformation(
         extent={{-10,-10},{10,10}},
         rotation=90,

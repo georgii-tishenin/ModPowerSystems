@@ -1,6 +1,6 @@
 within ModPowerSystems.EmtThreePhase.Transformers;
 model Transformer
-  //extends ModPowerSystems.Base.Interfaces.RealValue.ThreePhase.OnePort;
+  extends ModPowerSystems.Base.Interfaces.RealValue.ThreePhase.TwoPin;
 
   parameter SI.Voltage Vnom1 = 110e3 "primary voltage level";
   parameter SI.Voltage Vnom2 = 20e3 "secondary voltage level";
@@ -16,22 +16,17 @@ model Transformer
   final parameter SI.Resistance[3,3] Rmat = {{R,0,0}, {0,R,0}, {0,0,R}};
   final parameter SI.Reactance[3,3] Xmat = {{X,0,0}, {0,X,0}, {0,0,X}};
 
-  ModPowerSystems.Base.Interfaces.RealValue.ThreePhase.Plug Plug1
-    annotation (Placement(transformation(extent={{-110,-10},{-90,10}})));
-  ModPowerSystems.Base.Interfaces.RealValue.ThreePhase.Plug Plug2
-    annotation (Placement(transformation(extent={{90,-10},{110,10}})));
-
-  Connections.RxLine rxLine
+  Connections.RxLine Imp(r=Rmat, x=Xmat, length=1) 
     annotation (Placement(transformation(extent={{-60,-20},{-20,20}})));
-  IdealTransformer idealTransformer(Vnom1=Vnom1, Vnom2=Vnom2, ratio=ratio)
+  IdealTransformer Tr(Vnom1=Vnom1, Vnom2=Vnom2, ratio=ratio)
     annotation (Placement(transformation(extent={{20,-20},{60,20}})));
 equation
 
-  connect(idealTransformer.Plug2, Plug2)
+  connect(Tr.Plug2, Plug2)
     annotation (Line(points={{60,0},{100,0},{100,0}}, color={0,0,0}));
-  connect(idealTransformer.Plug1, rxLine.Plug2)
+  connect(Tr.Plug1, Imp.Plug2)
     annotation (Line(points={{20,0},{0,0},{-20,0}}, color={0,0,0}));
-  connect(rxLine.Plug1, Plug1)
+  connect(Imp.Plug1, Plug1)
     annotation (Line(points={{-60,0},{-80,0},{-100,0}}, color={0,0,0}));
   annotation (
     Icon(

@@ -1,5 +1,7 @@
 VoltageMeasurementABC
 CurrentMeasurementABC
+VoltagemeasurementDQ
+CurrentmeasurementDQ
 PowerMeasurementDQ
 PLL
 PLLIdeal

@@ -4,6 +4,7 @@ Capacitor
 Ground
 VoltageDC
 VoltageAC
-VCVS
-VCCS
 VoltageAC_DQ0
+VCVS
+VCVS_DQ
+VCCS

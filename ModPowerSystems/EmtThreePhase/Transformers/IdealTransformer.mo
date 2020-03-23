@@ -1,14 +1,14 @@
 within ModPowerSystems.EmtThreePhase.Transformers;
 model IdealTransformer
-  extends ModPowerSystems.Base.Interfaces.RealValue.ThreePhase.OnePort;
+  extends ModPowerSystems.Base.Interfaces.RealValue.ThreePhase.TwoPin;
 
-  parameter Modelica.SIunits.Voltage Vnom1 "primary voltage level";
-  parameter Modelica.SIunits.Voltage Vnom2 "secondary voltage level";
-
+  parameter SI.Voltage Vnom1 "primary voltage level";
+  parameter SI.Voltage Vnom2 "secondary voltage level";
   Real ratio = Vnom1/Vnom2 "Tap Ratio";
 
 equation
-  v1 = v2*ratio;
+  v2 = (1/ratio)*v1;
+  i2 = ratio*i1;
 
   annotation (
     Icon(

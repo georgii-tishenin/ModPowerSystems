@@ -10,5 +10,5 @@ model ABCtoQD0_Krause
 equation
   f_qd0 =Transforms.Functions.ABCtoQD0_Krause(f_abc, theta);
 annotation (
-    Icon(graphics={  Rectangle(origin = {0, 1}, extent = {{-100, 99}, {100, -101}}), Text(origin = {3, 4}, extent = {{-55, 32}, {55, -32}}, textString = "ABC to DQ")}, coordinateSystem(initialScale = 0.1)));
+    Icon(graphics={  Rectangle(origin = {0, 1}, extent = {{-100, 99}, {100, -101}}), Text(origin = {-39, 42}, extent = {{-55, 32}, {129, -110}}, textString = "ABC to DQ")}, coordinateSystem(initialScale = 0.1)));
 end ABCtoQD0_Krause;
