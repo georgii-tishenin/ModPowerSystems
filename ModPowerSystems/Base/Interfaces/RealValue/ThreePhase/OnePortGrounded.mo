@@ -1,8 +1,6 @@
 within ModPowerSystems.Base.Interfaces.RealValue.ThreePhase;
 partial model OnePortGrounded
-  "Shell model for models with one electrical three-phase connector"
-
-  parameter SI.Voltage Vnom = 110e3 "Nominal phase-to-phase RMS voltage";
+  "Shell model for one-port models with one electrical three-phase connector"
 
   ModPowerSystems.Base.Interfaces.RealValue.ThreePhase.Plug Plug1
     annotation (Placement(transformation(extent={{-10,110},{10,90}})));
@@ -12,14 +10,14 @@ partial model OnePortGrounded
   SI.Current i[3];
 
   // characteristic values
-  SI.Voltage V[3] "Voltage phase-to-neutral";
-  SI.Current I[3] "Current";
+  SI.Voltage vpp[3] "Voltage phase-to-phase";
+  SI.InstantaneousPower p_instant "Consumed instantaneous power";
 
 equation
   v[:] = Plug1.Pins[:].v;
   i[:] = Plug1.Pins[:].i;
-  V[:] = abs(v[:]);
-  I[:] = abs(i[:]);
+  vpp[:] = sqrt(3)*v[:];
+  p_instant = v[:]*i[:];
 
   annotation (
     Icon(

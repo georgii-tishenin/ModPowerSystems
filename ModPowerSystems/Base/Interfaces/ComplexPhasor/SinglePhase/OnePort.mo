@@ -23,6 +23,8 @@ partial model OnePort
   SI.Current I "Current RMS";
   SI.Angle Vangle "Voltage phase";
   SI.Angle Iangle "Current phase";
+  SI.Voltage Vpeak "Voltage peak phase-to-neutral";
+  SI.Current Ipeak "Current peak";
 
 equation
   v = v1 - v2;
@@ -32,9 +34,11 @@ equation
   i = -Pin2.i;
   V = 'abs'(v);
   Vpp = sqrt(3)*'abs'(v);
+  Vpeak =  sqrt(2)*'abs'(v);
   V1 = 'abs'(v1);
   V2 = 'abs'(v2);
   I = 'abs'(i);
+  Ipeak = sqrt(2)*'abs'(i);
   P = 3*real(v*conj(i));
   Q = 3*imag(v*conj(i));
   Vangle = arg(v);

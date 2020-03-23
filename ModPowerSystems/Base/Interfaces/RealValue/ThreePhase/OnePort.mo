@@ -1,6 +1,6 @@
 within ModPowerSystems.Base.Interfaces.RealValue.ThreePhase;
 partial model OnePort
-  "Shell model for models with two electrical three-phase connectors"
+  "Shell model for one-port models with two electrical three-phase connectors"
 
   ModPowerSystems.Base.Interfaces.RealValue.ThreePhase.Plug Plug1
     annotation (Placement(transformation(extent={{-110,-10},{-90,10}})));
@@ -14,6 +14,9 @@ partial model OnePort
 // port potentials
   SI.Voltage v1[3];
   SI.Voltage v2[3];
+  // characteristic values
+  SI.Voltage vpp[3] "Voltage phase-to-phase";
+  SI.InstantaneousPower p_instant "Consumed instantaneous power";
 
 equation
   v[:] = v1[:] - v2[:];
@@ -21,6 +24,9 @@ equation
   v2[:] = Plug2.Pins[:].v;
   i[:] = Plug1.Pins[:].i;
   i[:] = -Plug2.Pins[:].i;
+  vpp[:] = sqrt(3)*v[:];
+  p_instant = v[:]*i[:];
+  
   annotation (
     Icon(
       coordinateSystem(

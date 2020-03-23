@@ -1,6 +1,6 @@
 within ModPowerSystems.Base.Interfaces.RealValue.SinglePhase;
 partial model OnePortGrounded
-  "Shell model for models with one electrical connector"
+  "Shell model for one-port models with one electrical connector"
 
   ModPowerSystems.Base.Interfaces.RealValue.SinglePhase.Pin Pin1
     annotation (Placement(transformation(extent={{-10,110},{10,90}})));
@@ -11,11 +11,13 @@ partial model OnePortGrounded
 
   // characteristic values
   SI.Voltage vpp "Voltage phase-to-phase";
+  SI.InstantaneousPower p "Consumed instantaneous power";
 
 equation
   v = Pin1.v;
   i = Pin1.i;
   vpp = sqrt(3)*v;
+  p = v*i;
 
   annotation (
     Icon(

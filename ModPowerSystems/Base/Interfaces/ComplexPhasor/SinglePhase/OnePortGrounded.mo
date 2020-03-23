@@ -13,8 +13,10 @@ partial model OnePortGrounded
   SI.ActivePower P "Consumed Active Power";
   SI.ReactivePower Q "Reactive Power";
   SI.Voltage V "Voltage RMS phase-to-neutral";
+  SI.Voltage Vpeak "Voltage peak phase-to-neutral";
   SI.Voltage Vpp "Voltage RMS phase-to-phase";
   SI.Current I "Current RMS";
+  SI.Current Ipeak "Current peak";
   SI.Angle Vangle "Voltage phase";
   SI.Angle Iangle "Current phase";
   SI.Angle phi "Phase shift between voltage and current";
@@ -24,7 +26,9 @@ equation
   i = Pin1.i;
   V = 'abs'(v);
   Vpp = sqrt(3)*'abs'(v);
+  Vpeak =  sqrt(2)*'abs'(v);
   I = 'abs'(i);
+  Ipeak = sqrt(2)*'abs'(i);
   P = 3*real(v*conj(i));
   Q = 3*imag(v*conj(i));
   Vangle = arg(v);

@@ -25,6 +25,8 @@ partial model TwoPin
   SI.Current I2 "Current RMS out of the component at Pin2";
   SI.Angle Vangle "Voltage phase";
   SI.Angle Iangle "Current phase";
+  SI.Voltage Vpeak "Voltage peak phase-to-neutral";
+  SI.Current Ipeak "Current peak";
 
 equation
   v = v1 - v2;
@@ -35,9 +37,11 @@ equation
   i2 = -Pin2.i;
   V = 'abs'(v);
   Vpp = sqrt(3)*'abs'(v);
+  Vpeak =  sqrt(2)*'abs'(v);
   V1 = 'abs'(v1);
   V2 = 'abs'(v2);
   I = 'abs'(i);
+  Ipeak = sqrt(2)*'abs'(i);
   I1 = 'abs'(i1);
   I2 = 'abs'(i2);
   Vangle = arg(v);

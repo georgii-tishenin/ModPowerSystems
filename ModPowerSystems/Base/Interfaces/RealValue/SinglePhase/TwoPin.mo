@@ -1,6 +1,6 @@
 within ModPowerSystems.Base.Interfaces.RealValue.SinglePhase;
 partial model TwoPin
-  "Shell model for models with two electrical connectors "
+  "Shell model for models with two electrical connectors"
 
   ModPowerSystems.Base.Interfaces.RealValue.SinglePhase.Pin Pin1
     annotation (Placement(transformation(extent={{-110,-10},{-90,10}})));

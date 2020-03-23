@@ -1,38 +1,11 @@
 within ModPowerSystems.Base.Interfaces.ComplexPhasor.ThreePhase;
 partial model OnePortGroundedInit
-  "Shell model for models with one electrical connector "
-
-  parameter SI.Voltage Vnom = 100e3 "nominal voltage level";
-
-  ModPowerSystems.Base.Interfaces.ComplexPhasor.ThreePhase.Plug Plug1
-    annotation (Placement(transformation(extent={{-10,110},{10,90}})));
-
-  // port voltage and current
-  SI.ComplexVoltage v[3] "Voltage between Plug1";
-  SI.ComplexCurrent i[3] "Current flowing from Plug1";
-
-  // characteristic values
-  SI.ActivePower P[3] "Consumed Active Power";
-  SI.ReactivePower Q[3] "Reactive Power";
-  SI.Voltage V[3] "Voltage RMS phase-to-neutral";
-  SI.Voltage Vpp[3] "Voltage RMS phase-to-phase";
-  SI.Current I[3] "Current RMS";
-  SI.Angle Vangle[3] "Voltage phase";
-  SI.Angle Iangle[3] "Current phase";
-  SI.Angle phi[3] "Phase shift between voltage and current";
-
-equation
-  v[:] = Plug1.Pins[:].v;
-  i[:] = Plug1.Pins[:].i;
-  V[:] = 'abs'(v[:]);
-  Vpp[:] = sqrt(3)*'abs'(v[:]);
-  I[:] = 'abs'(i[:]);
-  P[:] = 3*real(v[:].*conj(i[:]));
-  Q[:] = 3*imag(v[:].*conj(i[:]));
-  Vangle[:] = arg(v[:]);
-  Iangle[:] = arg(i[:]);
-  phi[:] = Vangle[:]-Iangle[:];
-
+  "Shell model for one-port models with one initialized electrical three-phase connector"
+  
+  extends ModPowerSystems.Base.Interfaces.ComplexPhasor.ThreePhase.OnePortGrounded(Plug1(Pins(v(re(start={Vnom/sqrt(3),Vnom/sqrt(3),Vnom/sqrt(3)}), im(start={0,0,0})), i(re(start={0,0,0}),im(start={0,0,0})))));
+  
+  parameter SI.Voltage Vnom = 110e3 "Nominal phase-to-phase RMS voltage";
+  
   annotation (
     Icon(
       coordinateSystem(

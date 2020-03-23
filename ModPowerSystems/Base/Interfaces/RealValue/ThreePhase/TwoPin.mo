@@ -1,6 +1,6 @@
 within ModPowerSystems.Base.Interfaces.RealValue.ThreePhase;
 partial model TwoPin
-  "Shell model for models with two electrical connectors "
+  "Shell model for models with two electrical three-phase connectors"
 
   ModPowerSystems.Base.Interfaces.RealValue.ThreePhase.Plug Plug1
     annotation (Placement(transformation(extent={{-110,-10},{-90,10}})));

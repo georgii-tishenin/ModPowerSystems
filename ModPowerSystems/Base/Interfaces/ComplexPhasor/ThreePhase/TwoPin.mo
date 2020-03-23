@@ -1,6 +1,6 @@
 within ModPowerSystems.Base.Interfaces.ComplexPhasor.ThreePhase;
 partial model TwoPin
-  "Shell model for models with two electrical connectors "
+  "Shell model for models with two electrical three-phase connectors"
 
   ModPowerSystems.Base.Interfaces.ComplexPhasor.ThreePhase.Plug Plug1
     annotation (Placement(transformation(extent={{-110,-10},{-90,10}})));
@@ -18,6 +18,8 @@ partial model TwoPin
 // characteristic values
   SI.Voltage V[3] "Voltage RMS phase-to-neutral";
   SI.Current I[3] "Current RMS";
+  SI.Voltage Vpeak[3] "Voltage peak phase-to-neutral";
+  SI.Current Ipeak[3] "Current peak";
 
 equation
   v[:] = v1[:] - v2[:];
@@ -29,6 +31,8 @@ equation
   i2[:].im = -Plug2.Pins[:].i.im;
   V[:] = 'abs'(v[:]);
   I[:] = 'abs'(i[:]);
+  Vpeak[:] =  sqrt(2)*'abs'(v[:]);
+  Ipeak[:] = sqrt(2)*'abs'(i[:]);
 
   annotation (
     Icon(

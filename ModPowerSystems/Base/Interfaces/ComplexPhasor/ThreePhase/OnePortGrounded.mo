@@ -1,8 +1,6 @@
 within ModPowerSystems.Base.Interfaces.ComplexPhasor.ThreePhase;
 partial model OnePortGrounded
-  "Shell model for models with one electrical connector "
-
-  parameter SI.Voltage Vnom = 220 "nominal voltage level";
+  "Shell model for one-port models with one electrical three-phase connector"
 
   ModPowerSystems.Base.Interfaces.ComplexPhasor.ThreePhase.Plug Plug1
     annotation (Placement(transformation(extent={{-10,110},{10,90}})));
@@ -20,6 +18,8 @@ partial model OnePortGrounded
   SI.Angle Vangle[3] "Voltage phase";
   SI.Angle Iangle[3] "Current phase";
   SI.Angle phi[3] "Phase shift between voltage and current";
+  SI.Voltage Vpeak[3] "Voltage peak phase-to-neutral";
+  SI.Current Ipeak[3] "Current peak";
 
 equation
   v[:] = Plug1.Pins[:].v;
@@ -32,6 +32,8 @@ equation
   Vangle[:] = arg(v[:]);
   Iangle[:] = arg(i[:]);
   phi[:] = Vangle[:]-Iangle[:];
+  Vpeak[:] =  sqrt(2)*'abs'(v[:]);
+  Ipeak[:] = sqrt(2)*'abs'(i[:]);
 
   annotation (
     Icon(
