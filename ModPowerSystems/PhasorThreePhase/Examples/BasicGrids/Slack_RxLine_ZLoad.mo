@@ -7,7 +7,7 @@ model Slack_RxLine_ZLoad
         origin={0,34})));
   ModPowerSystems.PhasorThreePhase.Connections.BusBar busBar(Vnom=110e3)
     annotation (Placement(transformation(extent={{-10,8},{10,28}})));
-  ModPowerSystems.PhasorThreePhase.Connections.RxLine rxLine
+  ModPowerSystems.PhasorThreePhase.Connections.RxLine rxLine(Vnom = 110e3) 
    annotation (Placement(transformation(
         extent={{-10,-10},{10,10}},
         rotation=90,

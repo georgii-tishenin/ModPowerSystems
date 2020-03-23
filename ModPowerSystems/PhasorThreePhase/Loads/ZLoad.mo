@@ -1,7 +1,7 @@
 within ModPowerSystems.PhasorThreePhase.Loads;
 model ZLoad "Constant impedance load"
   extends
-    ModPowerSystems.Base.Interfaces.ComplexPhasor.ThreePhase.OnePortGrounded;
+    ModPowerSystems.Base.Interfaces.ComplexPhasor.ThreePhase.OnePortGroundedInit;
 
   parameter SI.ActivePower[3] Pnom = {0.5e6,0.5e6,0.5e6} "active power for each phase";
   parameter SI.ReactivePower[3] Qnom = {0.5e6,0.5e6,0.5e6} "reactive power for each phase";

@@ -3,7 +3,7 @@ package Slack
   model Slack "infinite power source"
 
     extends
-      ModPowerSystems.Base.Interfaces.ComplexPhasor.ThreePhase.OnePortGrounded;
+      ModPowerSystems.Base.Interfaces.ComplexPhasor.ThreePhase.OnePortGroundedInit;
 
     parameter Modelica.SIunits.Angle phiV = 0 "Initial Voltage Angle";
     constant SI.Angle[3] phaseShift = (0:2)*2*pi/3 "phase shift";
@@ -74,4 +74,5 @@ package Slack
               textString="%name")}), Diagram(coordinateSystem(preserveAspectRatio=
              false, extent={{-100,-100},{100,100}})));
   end Slack;
+
 end Slack;
