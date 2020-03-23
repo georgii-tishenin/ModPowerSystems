@@ -1,12 +1,12 @@
 within ModPowerSystems.EmtSinglePhase.Connections;
 model BusBar
-  extends ModPowerSystems.Base.Interfaces.RealValue.SinglePhase.OnePortGrounded;
+  extends ModPowerSystems.Base.Interfaces.RealValue.SinglePhase.OnePortGroundedInit;
 
   Real vrel "voltage relative to nominal voltage";
 
 equation
   vrel = vpp/Vnom;
-  i = Complex(0, 0);
+  i = 0;
 
  annotation (
     Icon(

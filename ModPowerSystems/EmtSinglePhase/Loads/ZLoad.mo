@@ -1,7 +1,7 @@
 within ModPowerSystems.EmtSinglePhase.Loads;
 model ZLoad "Constant impedance load"
   extends
-    ModPowerSystems.Base.Interfaces.ComplexPhasor.SinglePhase.OnePortGrounded;
+    ModPowerSystems.Base.Interfaces.RealValue.SinglePhase.OnePortGroundedInit;
 
   parameter SI.ActivePower Pnom = 5e6 "active power";
   parameter SI.ReactivePower Qnom = 2.5e6 "reactive power";

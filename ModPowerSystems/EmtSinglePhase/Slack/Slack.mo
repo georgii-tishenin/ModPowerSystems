@@ -1,8 +1,7 @@
 within ModPowerSystems.EmtSinglePhase.Slack;
 model Slack "infinite power source"
-  extends ModPowerSystems.Base.Interfaces.RealValue.SinglePhase.OnePortGrounded;
+  extends ModPowerSystems.Base.Interfaces.RealValue.SinglePhase.OnePortGroundedInit;
 
-  parameter Modelica.SIunits.Voltage Vnom = 10 "Nominal rms voltage phase-to-phase";
   parameter SI.Angle phiV = 0 "Initial voltage angle";
 
   outer ModPowerSystems.Base.System system;
