@@ -1,7 +1,9 @@
 within ModPowerSystems.PhasorSinglePhase.Examples.BasicGrids;
-model Slack_Tra_Line_PQLoadimport ModPowerSystems;inner ModPowerSystems.Base.System system
+model Slack_Tra_Line_PQLoad
+import ModPowerSystems;inner ModPowerSystems.Base.System system
     annotation (Placement(transformation(extent={{-100,80},{-80,100}})));
   ModPowerSystems.PhasorSinglePhase.Connections.PiLine piLine(
+    Vnom=20e3,
     r=0.207,
     x=0.121,
     g=0.0,

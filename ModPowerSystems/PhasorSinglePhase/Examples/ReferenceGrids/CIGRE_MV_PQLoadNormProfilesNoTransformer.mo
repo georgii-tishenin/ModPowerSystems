@@ -240,7 +240,7 @@ model CIGRE_MV_PQLoadNormProfilesNoTransformer
         rotation=0,
         origin={-98,-40})));
   Connections.PiLine L1_2(
-    length=2.82,
+    Vnom=20e3,length=2.82,
     r=0.579,
     x=0.367,
     b=49.914e-6) annotation (Placement(transformation(
@@ -248,7 +248,7 @@ model CIGRE_MV_PQLoadNormProfilesNoTransformer
         rotation=90,
         origin={-74,124})));
   Connections.PiLine L2_3(
-    length=4.42,
+    Vnom=20e3,length=4.42,
     r=0.164,
     x=0.113,
     b=207.597e-6) annotation (Placement(transformation(
@@ -256,7 +256,7 @@ model CIGRE_MV_PQLoadNormProfilesNoTransformer
         rotation=90,
         origin={-74,88})));
   Connections.PiLine L12_13(
-    length=4.89,
+    Vnom=20e3,length=4.89,
     r=0.337,
     x=0.358,
     b=51.17e-6) annotation (Placement(transformation(
@@ -264,7 +264,7 @@ model CIGRE_MV_PQLoadNormProfilesNoTransformer
         rotation=90,
         origin={106,126})));
   Connections.PiLine L13_14(
-    length=2.99,
+    Vnom=20e3,length=2.99,
     r=0.202,
     x=0.122,
     b=150.294e-6) annotation (Placement(transformation(
@@ -272,7 +272,7 @@ model CIGRE_MV_PQLoadNormProfilesNoTransformer
         rotation=90,
         origin={106,82})));
   Connections.PiLine L3_4(
-    length=0.61,
+    Vnom=20e3,length=0.61,
     r=0.262,
     x=0.121,
     b=203.576e-6) annotation (Placement(transformation(
@@ -280,7 +280,7 @@ model CIGRE_MV_PQLoadNormProfilesNoTransformer
         rotation=90,
         origin={-88,50})));
   Connections.PiLine L4_5(
-    length=0.56,
+    Vnom=20e3,length=0.56,
     r=0.354,
     x=0.129,
     b=143.257e-6) annotation (Placement(transformation(
@@ -288,7 +288,7 @@ model CIGRE_MV_PQLoadNormProfilesNoTransformer
         rotation=90,
         origin={-88,2})));
   Connections.PiLine L3_8(
-    length=1.3,
+    Vnom=20e3,length=1.3,
     r=0.172,
     x=0.115,
     b=206.592e-6) annotation (Placement(transformation(
@@ -296,7 +296,7 @@ model CIGRE_MV_PQLoadNormProfilesNoTransformer
         rotation=90,
         origin={64,40})));
   Connections.PiLine L7_8(
-    length=1.67,
+    Vnom=20e3,length=1.67,
     r=0.294,
     x=0.123,
     b=175.93e-6) annotation (Placement(transformation(
@@ -304,7 +304,7 @@ model CIGRE_MV_PQLoadNormProfilesNoTransformer
         rotation=90,
         origin={92,-42})));
   Connections.PiLine L8_9(
-    length=0.32,
+    Vnom=20e3,length=0.32,
     r=0.339,
     x=0.13,
     b=137.225e-6) annotation (Placement(transformation(
@@ -312,7 +312,7 @@ model CIGRE_MV_PQLoadNormProfilesNoTransformer
         rotation=90,
         origin={30,-46})));
   Connections.PiLine L9_10(
-    length=0.77,
+    Vnom=20e3,length=0.77,
     r=0.399,
     x=0.133,
     b=151.802e-6) annotation (Placement(transformation(
@@ -320,7 +320,7 @@ model CIGRE_MV_PQLoadNormProfilesNoTransformer
         rotation=90,
         origin={-34,-42})));
   Connections.PiLine L10_11(
-    length=0.33,
+    Vnom=20e3,length=0.33,
     r=0.367,
     x=0.133,
     b=143.257e-6) annotation (Placement(transformation(
@@ -328,7 +328,7 @@ model CIGRE_MV_PQLoadNormProfilesNoTransformer
         rotation=90,
         origin={-20,6})));
   Connections.PiLine L5_6(
-    length=1.54,
+    Vnom=20e3,length=1.54,
     r=0.336,
     x=0.126,
     b=172.411e-6) annotation (Placement(transformation(

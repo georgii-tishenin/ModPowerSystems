@@ -1,6 +1,5 @@
 within ModPowerSystems.PhasorSinglePhase.Examples.BasicCircuits;
 model VoltageSource_RL
-  import ModPowerSystems;
   inner ModPowerSystems.Base.System system
     annotation (Placement(transformation(extent={{-100,80},{-80,100}})));
   ModPowerSystems.PhasorSinglePhase.Basics.VoltageSource voltageSource

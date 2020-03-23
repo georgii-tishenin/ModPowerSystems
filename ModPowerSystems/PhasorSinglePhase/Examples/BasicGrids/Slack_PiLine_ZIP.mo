@@ -8,7 +8,7 @@ model Slack_PiLine_ZIP
     Placement(visible = true, transformation(origin = {-38, 48}, extent = {{-10, 0}, {10, 20}}, rotation = -90)));
   ModPowerSystems.PhasorSinglePhase.Connections.BusBar busBar2(Vnom = 33e3)  annotation(
     Placement(visible = true, transformation(origin = {28, 48}, extent = {{-10, 0}, {10, 20}}, rotation = -90)));
-  ModPowerSystems.PhasorSinglePhase.Connections.PiLine piLine1(b = 0, g = 0, length = 100, r = 0.161, x = 0.29)  annotation(
+  ModPowerSystems.PhasorSinglePhase.Connections.PiLine piLine1(Vnom = 33e3,b = 0, g = 0, length = 100, r = 0.161, x = 0.29)  annotation(
     Placement(visible = true, transformation(origin = {0, 46}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
 equation
   connect(piLine1.Pin1, busBar1.Pin1) annotation(

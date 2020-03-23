@@ -1,8 +1,7 @@
 within ModPowerSystems.PhasorSinglePhase.Loads;
 
 model ZIPLoad
-  extends ModPowerSystems.Base.Interfaces.ComplexPhasor.SinglePhase.OnePortGroundedInit(
-                                                                              v(re(start=Vnom), im(start=0)));
+  extends ModPowerSystems.Base.Interfaces.ComplexPhasor.SinglePhase.OnePortGroundedInit;
 
   parameter SI.ActivePower P0 = 0.5e6 "initial active power";
   parameter SI.ReactivePower Q0 = 0.5e6 "initial reactive power";

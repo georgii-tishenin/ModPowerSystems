@@ -1,6 +1,6 @@
 within ModPowerSystems.PhasorSinglePhase.Connections;
 model PiLine
-  extends ModPowerSystems.Base.Interfaces.ComplexPhasor.SinglePhase.TwoPin;
+  extends ModPowerSystems.Base.Interfaces.ComplexPhasor.SinglePhase.TwoPinInit;
 
   parameter Real length = 20 "Length of line in km";
   parameter Modelica.SIunits.Resistance r = 0.207 "Series Resistance per km";
@@ -27,6 +27,8 @@ model PiLine
   SI.Power S2 = 3*V2*I2 "apparent power out of the component at P2";
   SI.Power Srel = S2/Sr*100;
   SI.Power Slosses = abs(S1-S2);
+  SI.Current Irx = 'abs'(i_rx);
+  SI.Angle Irxangle = arg(i_rx);
 
 equation
     i_rx*(R+j*X) = v1-v2;

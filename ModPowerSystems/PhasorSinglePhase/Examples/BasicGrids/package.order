@@ -4,9 +4,12 @@ Slack_ZLoadSinus
 Slack_PQLoad
 Slack_PQLoadProfile
 Slack_PQLoadNormProfile
+Slack_PQLoadInput
 Slack_PiLine_PQLoad
+Slack_PiLine_ZLoad
 Slack_RxLine_PQLoad
 Slack_RxLine_Breaker_PQLoad
+Slack_RxLine_ZLoad
 Slack_Tra_PQLoad
 Slack_Tra_Line_PQLoad
 Slack_RxLine_PVNode
@@ -23,6 +26,7 @@ Slack_HouseholdSolar
 Slack_HouseholdBatteryMaxSC
 Slack_HouseholdBatteryStatPSPlant
 Slack_HouseholdBatteryStatPSPCC
+Slack_LVGridSmall_HouseholdLoad
 Slack_PiLine_ZIP
 Slack_TwoRxLine_PVNode_PQLoad
 Slack_TraTapChanger_PQLoad

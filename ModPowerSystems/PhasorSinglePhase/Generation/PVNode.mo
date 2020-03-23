@@ -4,12 +4,12 @@ model PVNode
   extends ModPowerSystems.Base.Interfaces.ComplexPhasor.SinglePhase.OnePortGroundedInit;
 
   parameter SI.ActivePower Pgen = 0e6 "active power";
-  parameter SI.Voltage Vabs = Vnom "voltage magnitude phase-to-phase";
+  parameter SI.Voltage Vabs = 1.0 "voltage set-point as factor of Vnom";
 
 
 equation
     -Pgen/3 = real(v*conj(i));
-    Vpp = Vabs;
+    Vpp = Vabs*Vnom;
 
   annotation (
     Placement(

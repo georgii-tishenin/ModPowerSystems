@@ -20,7 +20,7 @@ model WSCC_9Bus_PQLoad
         extent={{-12,0},{12,12.0716}},
         rotation=-90)));
   ModPowerSystems.PhasorSinglePhase.Connections.PiLine LINE75(
-    b=578.45e-6,
+    Vnom = 230e3,b=578.45e-6,
     g=0,
     length=1,
     r=16.928,
@@ -34,7 +34,7 @@ model WSCC_9Bus_PQLoad
         extent={{-10,0},{10,20}},
         rotation=0)));
   ModPowerSystems.PhasorSinglePhase.Connections.PiLine LINE54(
-    b=332.703e-6,
+    Vnom = 230e3,b=332.703e-6,
     g=0,
     length=1,
     r=5.29,
@@ -62,7 +62,7 @@ model WSCC_9Bus_PQLoad
         extent={{-10,0},{10,20}},
         rotation=0)));
   ModPowerSystems.PhasorSinglePhase.Connections.PiLine LINE64(
-    b=298.677e-6,
+    Vnom = 230e3,b=298.677e-6,
     g=0,
     length=1,
     r=8.993,
@@ -76,7 +76,7 @@ model WSCC_9Bus_PQLoad
         extent={{-10,0},{10,20}},
         rotation=0)));
   ModPowerSystems.PhasorSinglePhase.Connections.PiLine LINE96(
-    b=676.741e-6,
+    Vnom = 230e3,b=676.741e-6,
     g=0,
     length=1,
     r=20.631,
@@ -116,7 +116,7 @@ model WSCC_9Bus_PQLoad
         extent={{-10,0},{10,20}},
         rotation=0)));
   ModPowerSystems.PhasorSinglePhase.Connections.PiLine LINE78(
-    b=281.664e-6,
+    Vnom = 230e3,b=281.664e-6,
     g=0,
     length=1,
     r=4.4965,
@@ -125,7 +125,7 @@ model WSCC_9Bus_PQLoad
         extent={{-10,-10},{10,10}},
         rotation=0)));
   ModPowerSystems.PhasorSinglePhase.Connections.PiLine LINE89(
-    b=395.085e-6,
+    Vnom = 230e3,b=395.085e-6,
     g=0,
     length=1,
     r=6.2951,
@@ -140,8 +140,7 @@ model WSCC_9Bus_PQLoad
         origin={-48,10},
         extent={{-10,-10},{10,10}},
         rotation=0)));
-  ModPowerSystems.PhasorSinglePhase.Generation.PVNode GEN3(Pgen=85e6, Vnom=
-        1.025*13800) annotation (Placement(visible=true, transformation(
+  ModPowerSystems.PhasorSinglePhase.Generation.PVNode GEN3(Pgen=85e6, Vabs = 1.025, Vnom = 13800) annotation (Placement(visible=true, transformation(
         origin={132,70},
         extent={{-10,-10},{10,10}},
         rotation=0)));
@@ -150,8 +149,7 @@ model WSCC_9Bus_PQLoad
         origin={4,-65},
         extent={{-6,-7},{6,7}},
         rotation=0)));
-  ModPowerSystems.PhasorSinglePhase.Generation.PVNode GEN2(Pgen=163e6, Vnom=
-        1.025*18000) annotation (Placement(visible=true, transformation(
+  ModPowerSystems.PhasorSinglePhase.Generation.PVNode GEN2(Pgen=163e6, Vabs = 1.025, Vnom = 18000) annotation (Placement(visible=true, transformation(
         origin={-96,70},
         extent={{-10,-10},{10,10}},
         rotation=0)));

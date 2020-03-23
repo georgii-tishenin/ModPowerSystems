@@ -274,387 +274,387 @@ ModPowerSystems.PhasorSinglePhase.Connections.BusBar N6(Vnom = 400)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {115.2,-30.0})));
 ModPowerSystems.PhasorSinglePhase.Slack.Slack SL(phiV(displayUnit = "rad") = 0.00,Vnom(displayUnit="V") = 400)
 annotation (Placement(visible = true, transformation(extent = {{-5.0,-5.0},{5.0,5.0}}, rotation = -90, origin={40,-11.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH40( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ40( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {532.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH45( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ45( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {672.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH41( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ41( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {644.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH51( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ51( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {616.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH54( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ54( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {588.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH55( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ55( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {790.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH52( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ52( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {762.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH47( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ47( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {730.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH43( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ43( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {702.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH6( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ6( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {174.5,-35.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH2( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ2( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {134.5,-35.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH53( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ53( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {848.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH50( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ50( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {820.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH14( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ14( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {310.0,-139.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH17( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ17( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {428.0,-157.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH16( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ16( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {398.0,-157.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH15( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ15( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {370.0,-157.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH13( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ13( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {342.0,-157.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH4( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ4( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {227.5,-47.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH5( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ5( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {232.0,-47.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH30( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ30( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {350.0,-179.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH34( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ34( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {290.0,-191.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH29( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ29( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {440.0,-179.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH31( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ31( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {414.0,-179.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH25( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ25( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {378.0,-179.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH35( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ35( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {582.0,-179.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH33( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ33( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {554.0,-179.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH36( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ36( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {500.0,-179.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH37( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ37( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {474.0,-179.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH9( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ9( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {404.0,-35.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH12( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ12( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {370.0,-35.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH8( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ8( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {322.0,-35.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH7( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ7( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {286.0,-37.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH44( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ44( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin={302,
             -273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH26( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ26( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {268.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH27( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ27( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {204.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH28( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ28( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {176.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH24( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ24( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {140.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH10( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ10( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {434.0,-35.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH11( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ11( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {440.0,-35.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH46( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ46( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {390.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH38( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ38( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {360.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH32( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ32( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {330.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH21( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ21( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {46.0,-187.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH42( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ42( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {476.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH49( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ49( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {446.0,-291.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH48( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ48( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {418.0,-291.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH19( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ19( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {80.0,-187.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH3( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ3( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {78.0,-35.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH39( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ39( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {504.0,-273.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH23( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ23( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {240.0,-183.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH18( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ18( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {212.0,-183.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH20( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ20( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {178.0,-183.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH22( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ22( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {148.0,-183.8})));
-ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad HH1( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
+ModPowerSystems.PhasorSinglePhase.Households.HouseholdLoad PQ1( Household_Vnom = 400, Load_Type = 1, Load_Qnom = 329, Load_Pnom = 1000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = 0, origin = {120.0,-35.8})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L124(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.010125,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L124(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.010125,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {818.0,-242.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L125(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.021585,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L125(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.021585,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {843.0,-235.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L123(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.015946,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L123(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.015946,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {790.0,-235.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L122(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.010772,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L122(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.010772,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {762.0,-240.7})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L9(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.008024,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L9(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.008024,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {154.5,-72.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L8(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.005726,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L8(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.005726,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {140.5,-56.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L114(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.006778,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L114(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.006778,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {644.0,-262.7})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L115(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.005756,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L115(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.005756,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {657.0,-258.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L133(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.003259,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L133(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.003259,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {601.0,-260.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L132(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.009693,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L132(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.009693,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {586.0,-260.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L130(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.008092,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L130(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.008092,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {776.0,-260.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L131(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.010336,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L131(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.010336,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {762.0,-260.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L119(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.005658,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L119(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.005658,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {715.0,-259.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L118(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.007129,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L118(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.007129,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {700.0,-260.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L10(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.006444,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L10(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.006444,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {158.5,-39.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L11(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.006153,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L11(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.006153,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {140.5,-38.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L108(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.006331,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L108(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.006331,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {572.0,-235.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L109(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.002948,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L109(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.002948,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {558.0,-238.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L128(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.009339,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L128(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.009339,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {834.0,-259.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L129(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.007508,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L129(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.007508,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {818.0,-260.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L27(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.011185,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L27(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.011185,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {340.0,-118.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L26(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.016333,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L26(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.016333,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {368.0,-106.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L25(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.016095,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L25(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.016095,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {324.1,-106.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L24(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.014347,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L24(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.014347,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {310.1,-118.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L23(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.003067,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L23(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.003067,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {294.0,-106.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L22(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.00332,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L22(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.00332,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {278.1,-111.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L20(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.001106,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L20(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.001106,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {264.0,-106.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L21(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.028187,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L21(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.028187,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {101.4,-170.3})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L13(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.038351,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L13(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.038351,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {170.5,-82.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L12(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.009776,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L12(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.009776,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {185.5,-72.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L34(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.003247,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L34(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.003247,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {473.0,-105.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L35(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.003472,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L35(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.003472,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {454.0,-110.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L31(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.010407,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L31(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.010407,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {398.0,-117.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L30(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.004506,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L30(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.004506,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {425.0,-105.5})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L17(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.012295,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L17(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.012295,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {221.5,-54.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L16(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.013376,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L16(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.013376,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {237.3,-72.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L15(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.001278,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L15(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.001278,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {196.5,-54.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L14(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.003355,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L14(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.003355,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {211.1,-72.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L45(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.004802,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L45(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.004802,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {354.0,-142.5})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L44(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.006885,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L44(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.006885,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {340.0,-143.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L70(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.008184,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L70(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.008184,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {329.9,-208.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L71(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.000883,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L71(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.000883,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {314.0,-198.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L68(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.005391,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L68(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.005391,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {301.0,-208.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L69(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.016527,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L69(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.016527,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {283.9,-195.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L51(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.003325,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L51(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.003325,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {409.6,-141.6})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L50(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.007117,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L50(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.007117,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {398.0,-142.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L95(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.003109,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L95(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.003109,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {591.6,-208.4})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L94(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.016051,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L94(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.016051,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {578.0,-189.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L92(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.0096,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L92(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.0096,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {562.4,-208.4})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L86(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.0072,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L86(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.0072,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {538.0,-208.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L87(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.002427,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L87(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.002427,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {522.0,-197.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L85(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.013713,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L85(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.013713,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {468.0,-195.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L84(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.000743,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L84(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.000743,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {497.0,-208.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L79(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.010658,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L79(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.010658,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {405.9,-195.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L78(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.012949,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L78(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.012949,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {439.0,-208.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L73(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.010277,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L73(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.010277,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {341.9,-195.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L72(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.016059,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L72(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.016059,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {371.2,-207.2})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L74(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.005548,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L74(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.005548,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {341.9,-182.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L75(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.006679,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L75(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.006679,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {358.0,-186.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L83(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.006655,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L83(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.006655,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {421.0,-186.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L82(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.006377,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L82(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.006377,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {406.1,-180.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L19(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.008798,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L19(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.008798,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {252.1,-84.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L18(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.014675,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L18(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.014675,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {267.0,-72.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L61(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.001412,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L61(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.001412,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {110.0,-242.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L60(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.007371,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L60(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.007371,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {142.0,-235.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L93(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.01441,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L93(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.01441,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {550.0,-189.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L99(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.005347,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L99(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.005347,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {482.0,-186.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L98(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.006025,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L98(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.006025,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {468.0,-180.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L28(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.018537,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L28(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.018537,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {278.0,-48.2})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L29(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.0123,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L29(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.0123,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {294.0,-71.7})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L89(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.004775,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L89(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.004775,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {310.8,-235.6})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L88(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.015715,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L88(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.015715,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {297.9,-250.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L76(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.010472,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L76(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.010472,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {267.3,-256.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L77(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.002937,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L77(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.002937,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {279.6,-235.2})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L66(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.022041,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L66(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.022041,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {251.0,-235.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L67(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.001954,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L67(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.001954,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {234.0,-239.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L64(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.010681,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L64(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.010681,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {173.9,-242.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L65(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.004268,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L65(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.004268,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {204.0,-235.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L41(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.001127,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L41(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.001127,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {450.0,-72.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L39(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.007371,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L39(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.007371,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {413.3,-70.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L38(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.018459,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L38(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.018459,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {398.1,-48.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L33(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.012448,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L33(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.012448,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {310.0,-54.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L32(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.014136,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L32(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.014136,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {350.8,-70.8})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L63(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.021942,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L63(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.021942,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {110.0,-258.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L62(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.019823,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L62(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.019823,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {125.1,-259.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L101(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.00963,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L101(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.00963,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {431.0,-235.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L100(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.01519,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L100(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.01519,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {387.9,-242.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L97(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.002701,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L97(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.002701,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {373.0,-235.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L96(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.013769,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L96(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.013769,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {357.9,-250.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L90(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.014004,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L90(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.014004,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {328.1,-250.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L91(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.009089,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L91(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.009089,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {343.0,-234.3})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L36(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.006914,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L36(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.006914,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {310.0,-36.2})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L37(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.008238,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L37(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.008238,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {338.9,-45.1})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L1(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.016647,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L1(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.016647,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {56.0,-58.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L81(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.005584,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L81(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.005584,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {189.0,-259.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L80(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.009801,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L80(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.009801,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {173.9,-260.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L43(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.00407,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L43(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.00407,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {59.0,-208.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L40(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.018924,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L40(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.018924,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {428.1,-48.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L2(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.002773,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L2(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.002773,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {37.2,-72.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L127(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.007509,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L127(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.007509,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {430.0,-276.5})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L126(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.00282,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L126(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.00282,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {414.0,-277.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L120(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.002292,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L120(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.002292,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {403.0,-259.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L121(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.009776,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L121(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.009776,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {387.9,-260.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L42(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.014524,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L42(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.014524,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {40.0,-193.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L47(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.004991,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L47(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.004991,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {93.0,-208.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L5(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.012622,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L5(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.012622,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {112.7,-72.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L3(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.005216,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L3(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.005216,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {72.6,-72.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L4(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.005905,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L4(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.005905,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {85.2,-56.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L105(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.006457,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L105(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.006457,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {489.0,-259.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L104(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.007358,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L104(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.007358,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {474.1,-260.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L102(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.008145,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L102(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.008145,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {474.1,-242.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L103(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.010525,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L103(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.010525,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {502.0,-235.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L52(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.007699,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L52(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.007699,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {140.0,-197.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L58(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.005197,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L58(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.005197,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {158.0,-191.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L57(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.037663,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L57(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.037663,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {260.9,-208.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L56(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.015785,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L56(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.015785,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {234.0,-191.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L54(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.01275,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L54(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.01275,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {206.0,-191.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L55(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.006673,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L55(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.006673,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {222.0,-208.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L53(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.010679,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L53(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.010679,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {175.0,-208.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L48(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.00823,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L48(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.00823,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {126.0,-208.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L49(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.007302,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L49(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.007302,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {110.0,-218.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L46(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.014968,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L46(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.014968,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {74.0,-198.5})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L6(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.005351,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L6(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.005351,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {103.2,-39.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L7(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.006747,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L7(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.006747,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {85.2,-38.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L117(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.010873,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L117(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.010873,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {700.0,-242.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L116(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.01946,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L116(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.01946,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {730.0,-235.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L113(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.01126,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L113(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.01126,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {644.0,-242.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L112(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.017007,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L112(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.017007,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {673.0,-235.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L111(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.012748,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L111(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.012748,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {586.0,-242.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L110(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.015246,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L110(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.015246,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {615.0,-235.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L107(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.004591,r=0.249, x=0.08,  b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L107(Imax=270.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.004591,r=0.249, x=0.08,  b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {543.0,-235.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L106(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.014975,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L106(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.014975,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {528.0,-250.0})));
-ModPowerSystems.PhasorSinglePhase.Connections.PiLine L59(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, length=0.008524,r=0.772, x=0.083, b=0.0000000000)
+ModPowerSystems.PhasorSinglePhase.Connections.PiLine L59(Imax=142.0,                       Sr(displayUnit = "W") = 1, g = 0, Vnom=400, length=0.008524,r=0.772, x=0.083, b=0.0000000000)
 annotation (Placement(visible = true, transformation(extent = {{-8.0,-8.0},{8.0,8.0}}, rotation = -90, origin = {140.0,-184.0})));
 equation
  connect(N104.Pin1,L106.Pin2)
 annotation(Line(points={{528,-268},{528,-258}},            color = {0,0,0}, smooth = Smooth.None));
- connect(N104.Pin1,HH40.Pin1)
+ connect(N104.Pin1,PQ40.Pin1)
 annotation(Line(points={{528,-268},{528,-278.6},{524,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N126.Pin1,L125.Pin2)
 annotation(Line(points={{864,-232},{843,-232},{843,-243}},                  color = {0,0,0}, smooth = Smooth.None));
@@ -678,11 +678,11 @@ annotation(Line(points={{139.5,-66},{139.5,-73},{154.5,-73},{154.5,-64}},       
 annotation(Line(points={{139.5,-66},{139.5,-48},{140.5,-48}},            color = {0,0,0}, smooth = Smooth.None));
  connect(N117.Pin1,L115.Pin2)
 annotation(Line(points={{668,-268},{668,-259},{657,-259},{657,-266}},                        color = {0,0,0}, smooth = Smooth.None));
- connect(N117.Pin1,HH45.Pin1)
+ connect(N117.Pin1,PQ45.Pin1)
 annotation(Line(points={{668,-268},{668,-278.6},{664,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N110.Pin1,L114.Pin2)
 annotation(Line(points={{640,-268},{640,-270.7},{644,-270.7}},              color = {0,0,0}, smooth = Smooth.None));
- connect(N110.Pin1,HH41.Pin1)
+ connect(N110.Pin1,PQ41.Pin1)
 annotation(Line(points={{640,-268},{640,-278.6},{636,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N108.Pin1,L114.Pin1)
 annotation(Line(points={{640,-252},{640,-254.7},{644,-254.7}},              color = {0,0,0}, smooth = Smooth.None));
@@ -692,11 +692,11 @@ annotation(Line(points={{640,-252},{640,-250},{644,-250}},                  colo
 annotation(Line(points={{640,-252},{640,-259},{657,-259},{657,-250}},                        color = {0,0,0}, smooth = Smooth.None));
  connect(N130.Pin1,L133.Pin2)
 annotation(Line(points={{612,-268},{612,-260},{601,-260},{601,-268}},                        color = {0,0,0}, smooth = Smooth.None));
- connect(N130.Pin1,HH51.Pin1)
+ connect(N130.Pin1,PQ51.Pin1)
 annotation(Line(points={{612,-268},{612,-278.6},{608,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N133.Pin1,L132.Pin2)
 annotation(Line(points={{584,-268},{584,-268},{586,-268}},                  color = {0,0,0}, smooth = Smooth.None));
- connect(N133.Pin1,HH54.Pin1)
+ connect(N133.Pin1,PQ54.Pin1)
 annotation(Line(points={{584,-268},{584,-278.6},{580,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N129.Pin1,L133.Pin1)
 annotation(Line(points={{584,-252},{584,-260},{601,-260},{601,-252}},                        color = {0,0,0}, smooth = Smooth.None));
@@ -706,11 +706,11 @@ annotation(Line(points={{584,-252},{584,-252},{586,-252}},                  colo
 annotation(Line(points={{584,-252},{584,-250},{586,-250}},                  color = {0,0,0}, smooth = Smooth.None));
  connect(N134.Pin1,L130.Pin2)
 annotation(Line(points={{786,-268},{786,-260},{776,-260},{776,-268}},                        color = {0,0,0}, smooth = Smooth.None));
- connect(N134.Pin1,HH55.Pin1)
+ connect(N134.Pin1,PQ55.Pin1)
 annotation(Line(points={{786,-268},{786,-278.6},{782,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N131.Pin1,L131.Pin2)
 annotation(Line(points={{758,-268},{758,-268},{762,-268}},                  color = {0,0,0}, smooth = Smooth.None));
- connect(N131.Pin1,HH52.Pin1)
+ connect(N131.Pin1,PQ52.Pin1)
 annotation(Line(points={{758,-268},{758,-278.6},{754,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N127.Pin1,L130.Pin1)
 annotation(Line(points={{758,-252},{758,-260},{776,-260},{776,-252}},                        color = {0,0,0}, smooth = Smooth.None));
@@ -720,11 +720,11 @@ annotation(Line(points={{758,-252},{758,-252},{762,-252}},                  colo
 annotation(Line(points={{758,-252},{758,-248.7},{762,-248.7}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N120.Pin1,L119.Pin2)
 annotation(Line(points={{726,-268},{726,-259.5},{715,-259.5},{715,-267}},                    color = {0,0,0}, smooth = Smooth.None));
- connect(N120.Pin1,HH47.Pin1)
+ connect(N120.Pin1,PQ47.Pin1)
 annotation(Line(points={{726,-268},{726,-278.6},{722,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N113.Pin1,L118.Pin2)
 annotation(Line(points={{698,-268},{698,-268},{700,-268}},                  color = {0,0,0}, smooth = Smooth.None));
- connect(N113.Pin1,HH43.Pin1)
+ connect(N113.Pin1,PQ43.Pin1)
 annotation(Line(points={{698,-268},{698,-278.6},{694,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N111.Pin1,L117.Pin2)
 annotation(Line(points={{698,-252},{698,-250},{700,-250}},                  color = {0,0,0}, smooth = Smooth.None));
@@ -734,12 +734,12 @@ annotation(Line(points={{698,-252},{698,-259.5},{715,-259.5},{715,-251}},       
 annotation(Line(points={{698,-252},{698,-252},{700,-252}},                  color = {0,0,0}, smooth = Smooth.None));
  connect(N14.Pin1,L10.Pin2)
 annotation(Line(points={{170.5,-30},{158.5,-30},{158.5,-47}},            color = {0,0,0}, smooth = Smooth.None));
- connect(N14.Pin1,HH6.Pin1)
+ connect(N14.Pin1,PQ6.Pin1)
 annotation(Line(points={{170.5,-30},{170.5,-40.6},{166.5,-40.6}},        color = {0,0,0}, smooth = Smooth.None));
  connect(N9.Pin1,L11.Pin2)
 annotation(Line(points={{141.5,-30},{142,-30},{142,-46},{140.5,-46}},
                                                          color = {0,0,0}, smooth = Smooth.None));
- connect(N9.Pin1,HH2.Pin1)
+ connect(N9.Pin1,PQ2.Pin1)
 annotation(Line(points={{141.5,-30},{141.5,-40.6},{126.5,-40.6}},        color = {0,0,0}, smooth = Smooth.None));
  connect(N7.Pin1,L10.Pin1)
 annotation(Line(points={{142.5,-46},{158.5,-46},{158.5,-31}},            color = {0,0,0}, smooth = Smooth.None));
@@ -758,11 +758,11 @@ annotation(Line(points={{556,-232},{556,-230},{558,-230}},                  colo
 annotation(Line(points={{556,-232},{543,-232},{543,-243}},                  color = {0,0,0}, smooth = Smooth.None));
  connect(N132.Pin1,L128.Pin2)
 annotation(Line(points={{844,-268},{844,-259.5},{834,-259.5},{834,-267}},                    color = {0,0,0}, smooth = Smooth.None));
- connect(N132.Pin1,HH53.Pin1)
+ connect(N132.Pin1,PQ53.Pin1)
 annotation(Line(points={{844,-268},{844,-278.6},{840,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N128.Pin1,L129.Pin2)
 annotation(Line(points={{816,-268},{816,-268},{818,-268}},                  color = {0,0,0}, smooth = Smooth.None));
- connect(N128.Pin1,HH50.Pin1)
+ connect(N128.Pin1,PQ50.Pin1)
 annotation(Line(points={{816,-268},{816,-278.6},{812,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N125.Pin1,L128.Pin1)
 annotation(Line(points={{816,-252},{816,-259.5},{834,-259.5},{834,-251}},                    color = {0,0,0}, smooth = Smooth.None));
@@ -804,7 +804,7 @@ annotation(Line(points={{168.3,-66},{168.3,-90},{170.5,-90}},            color =
 annotation(Line(points={{168.3,-66},{168.3,-73},{185.5,-73},{185.5,-64}},                color = {0,0,0}, smooth = Smooth.None));
  connect(N44.Pin1,L24.Pin2)
 annotation(Line(points={{306,-134},{306,-126},{310.1,-126}},                color = {0,0,0}, smooth = Smooth.None));
- connect(N44.Pin1,HH14.Pin1)
+ connect(N44.Pin1,PQ14.Pin1)
 annotation(Line(points={{306,-134},{306,-144.6},{302,-144.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N32.Pin1,L22.Pin2)
 annotation(Line(points={{276,-120},{276,-119},{278.1,-119}},                color = {0,0,0}, smooth = Smooth.None));
@@ -838,19 +838,19 @@ annotation(Line(points={{196.5,-66},{196.5,-73},{211.1,-73},{211.1,-64}},       
 annotation(Line(points={{452,-120},{452,-118},{454,-118}},                  color = {0,0,0}, smooth = Smooth.None));
  connect(N50.Pin1,L51.Pin2)
 annotation(Line(points={{424,-152},{424,-142.8},{409.6,-142.8},{409.6,-149.6}},              color = {0,0,0}, smooth = Smooth.None));
- connect(N50.Pin1,HH17.Pin1)
+ connect(N50.Pin1,PQ17.Pin1)
 annotation(Line(points={{424,-152},{424,-162.6},{420,-162.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N48.Pin1,L50.Pin2)
 annotation(Line(points={{394,-152},{394,-150},{398,-150}},                  color = {0,0,0}, smooth = Smooth.None));
- connect(N48.Pin1,HH16.Pin1)
+ connect(N48.Pin1,PQ16.Pin1)
 annotation(Line(points={{394,-152},{394,-162.6},{390,-162.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N47.Pin1,L45.Pin2)
 annotation(Line(points={{366,-152},{366,-143.25},{354,-143.25},{354,-150.5}},                color = {0,0,0}, smooth = Smooth.None));
- connect(N47.Pin1,HH15.Pin1)
+ connect(N47.Pin1,PQ15.Pin1)
 annotation(Line(points={{366,-152},{366,-162.6},{362,-162.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N41.Pin1,L44.Pin2)
 annotation(Line(points={{336,-152},{336,-151},{340,-151}},                  color = {0,0,0}, smooth = Smooth.None));
- connect(N41.Pin1,HH13.Pin1)
+ connect(N41.Pin1,PQ13.Pin1)
 annotation(Line(points={{336,-152},{336,-162.6},{334,-162.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N38.Pin1,L27.Pin2)
 annotation(Line(points={{336,-134},{336,-126},{340,-126}},                  color = {0,0,0}, smooth = Smooth.None));
@@ -860,9 +860,9 @@ annotation(Line(points={{336,-134},{336,-142.25},{354,-142.25},{354,-134.5}},   
 annotation(Line(points={{336,-134},{336,-135},{340,-135}},                  color = {0,0,0}, smooth = Smooth.None));
  connect(N13.Pin1,L17.Pin2)
 annotation(Line(points={{224.8,-42},{224.8,-62},{221.5,-62}},            color = {0,0,0}, smooth = Smooth.None));
- connect(N13.Pin1,HH4.Pin1)
+ connect(N13.Pin1,PQ4.Pin1)
 annotation(Line(points={{224.8,-42},{224.8,-52.6},{219.5,-52.6}},        color = {0,0,0}, smooth = Smooth.None));
- connect(N13.Pin1,HH5.Pin1)
+ connect(N13.Pin1,PQ5.Pin1)
 annotation(Line(points={{224.8,-42},{224.8,-52.6},{224,-52.6}},          color = {0,0,0}, smooth = Smooth.None));
  connect(N15.Pin1,L15.Pin2)
 annotation(Line(points={{197.5,-42},{197.5,-62},{196.5,-62}},            color = {0,0,0}, smooth = Smooth.None));
@@ -922,7 +922,7 @@ annotation(Line(points={{344,-204},{329.9,-204},{329.9,-216}},              colo
 annotation(Line(points={{344,-204},{344,-209.59},{371.2,-209.59},{371.2,-199.2}},            color = {0,0,0}, smooth = Smooth.None));
  connect(N80.Pin1,L74.Pin1)
 annotation(Line(points={{344,-174},{341.9,-174}},                           color = {0,0,0}, smooth = Smooth.None));
- connect(N80.Pin1,HH30.Pin1)
+ connect(N80.Pin1,PQ30.Pin1)
 annotation(Line(points={{344,-174},{344,-184.6},{342,-184.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N68.Pin1,L74.Pin2)
 annotation(Line(points={{341,-186},{341,-190},{341.9,-190}},                color = {0,0,0}, smooth = Smooth.None));
@@ -934,17 +934,17 @@ annotation(Line(points={{341,-186},{358,-186},{358,-178}},                  colo
 annotation(Line(points={{316,-192},{316,-206},{314,-206}},                  color = {0,0,0}, smooth = Smooth.None));
  connect(N92.Pin1,L69.Pin2)
 annotation(Line(points={{286,-186},{286,-203},{283.9,-203}},                color = {0,0,0}, smooth = Smooth.None));
- connect(N92.Pin1,HH34.Pin1)
+ connect(N92.Pin1,PQ34.Pin1)
 annotation(Line(points={{286,-186},{286,-196.6},{282,-196.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N90.Pin1,L95.Pin2)
 annotation(Line(points={{606,-204},{591.6,-204},{591.6,-216.4}},            color = {0,0,0}, smooth = Smooth.None));
  connect(N79.Pin1,L83.Pin2)
 annotation(Line(points={{436,-174},{421,-174},{421,-194}},                  color = {0,0,0}, smooth = Smooth.None));
- connect(N79.Pin1,HH29.Pin1)
+ connect(N79.Pin1,PQ29.Pin1)
 annotation(Line(points={{436,-174},{436,-184.6},{432,-184.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N87.Pin1,L82.Pin2)
 annotation(Line(points={{408,-174},{408,-188},{406.1,-188}},                color = {0,0,0}, smooth = Smooth.None));
- connect(N87.Pin1,HH31.Pin1)
+ connect(N87.Pin1,PQ31.Pin1)
 annotation(Line(points={{408,-174},{408,-184.6},{406,-184.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N76.Pin1,L79.Pin2)
 annotation(Line(points={{405,-186},{405,-203},{405.9,-203}},                color = {0,0,0}, smooth = Smooth.None));
@@ -954,7 +954,7 @@ annotation(Line(points={{405,-186},{421,-186},{421,-178}},                  colo
 annotation(Line(points={{405,-186},{405,-172},{406.1,-172}},                color = {0,0,0}, smooth = Smooth.None));
  connect(N69.Pin1,L75.Pin2)
 annotation(Line(points={{372,-87},{372,-132.5},{358,-132.5},{358,-194}},                    color = {0,0,0}, smooth = Smooth.None));
- connect(N69.Pin1,HH25.Pin1)
+ connect(N69.Pin1,PQ25.Pin1)
 annotation(Line(points={{372,-87},{372,-184.6},{370,-184.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N16.Pin1,L19.Pin1)
 annotation(Line(points={{249,-66},{249,-76},{252.1,-76}},                color = {0,0,0}, smooth = Smooth.None));
@@ -970,21 +970,21 @@ annotation(Line(points={{108,-232},{108,-226},{110,-226}},                  colo
 annotation(Line(points={{108,-232},{108,-237.5},{142,-237.5},{142,-227}},                    color = {0,0,0}, smooth = Smooth.None));
  connect(N93.Pin1,L94.Pin2)
 annotation(Line(points={{578,-174},{578,-197},{578,-197}},                  color = {0,0,0}, smooth = Smooth.None));
- connect(N93.Pin1,HH35.Pin1)
+ connect(N93.Pin1,PQ35.Pin1)
 annotation(Line(points={{578,-174},{578,-184.6},{574,-184.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N91.Pin1,L93.Pin1)
 annotation(Line(points={{550,-174},{550,-181},{550,-181}},                  color = {0,0,0}, smooth = Smooth.None));
- connect(N91.Pin1,HH33.Pin1)
+ connect(N91.Pin1,PQ33.Pin1)
 annotation(Line(points={{550,-174},{550,-184.6},{546,-184.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N97.Pin1,L87.Pin2)
 annotation(Line(points={{522,-190},{522,-205},{522,-205}},                  color = {0,0,0}, smooth = Smooth.None));
  connect(N96.Pin1,L99.Pin2)
 annotation(Line(points={{496,-174},{482,-174},{482,-194}},                  color = {0,0,0}, smooth = Smooth.None));
- connect(N96.Pin1,HH36.Pin1)
+ connect(N96.Pin1,PQ36.Pin1)
 annotation(Line(points={{496,-174},{496,-184.6},{492,-184.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N98.Pin1,L98.Pin2)
 annotation(Line(points={{468,-174},{468,-188}},            color = {0,0,0}, smooth = Smooth.None));
- connect(N98.Pin1,HH37.Pin1)
+ connect(N98.Pin1,PQ37.Pin1)
 annotation(Line(points={{468,-174},{468,-184.6},{466,-184.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N94.Pin1,L99.Pin1)
 annotation(Line(points={{465,-186},{482,-186},{482,-178}},                  color = {0,0,0}, smooth = Smooth.None));
@@ -1072,7 +1072,7 @@ annotation(Line(points={{326,-232},{310.8,-232},{310.8,-243.6}},            colo
 annotation(Line(points={{326,-232},{326,-237.18},{343,-237.18},{343,-226.3}},                color = {0,0,0}, smooth = Smooth.None));
  connect(N33.Pin1,L38.Pin2)
 annotation(Line(points={{398,-30},{398,-56},{398.1,-56}},                color = {0,0,0}, smooth = Smooth.None));
- connect(N33.Pin1,HH9.Pin1)
+ connect(N33.Pin1,PQ9.Pin1)
 annotation(Line(points={{398,-30},{398,-40.6},{396,-40.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N28.Pin1,L36.Pin1)
 annotation(Line(points={{310.8,-42},{310.8,-28.2},{310,-28.2}},          color = {0,0,0}, smooth = Smooth.None));
@@ -1082,33 +1082,33 @@ annotation(Line(points={{310.8,-42},{310.8,-62},{310,-62}},              color =
 annotation(Line(points={{310.8,-42},{310.8,-47.55},{338.9,-47.55},{338.9,-37.1}},        color = {0,0,0}, smooth = Smooth.None));
  connect(N40.Pin1,L37.Pin2)
 annotation(Line(points={{364,-30.4},{338.9,-30.4},{338.9,-53.1}},        color = {0,0,0}, smooth = Smooth.None));
- connect(N40.Pin1,HH12.Pin1)
+ connect(N40.Pin1,PQ12.Pin1)
 annotation(Line(points={{364,-30.4},{364,-40.6},{362,-40.6}},            color = {0,0,0}, smooth = Smooth.None));
  connect(N31.Pin1,L36.Pin2)
 annotation(Line(points={{314.8,-30.4},{314.8,-44.2},{310,-44.2}},        color = {0,0,0}, smooth = Smooth.None));
- connect(N31.Pin1,HH8.Pin1)
+ connect(N31.Pin1,PQ8.Pin1)
 annotation(Line(points={{314.8,-30.4},{314.8,-40.6},{314,-40.6}},        color = {0,0,0}, smooth = Smooth.None));
  connect(N26.Pin1,L28.Pin2)
 annotation(Line(points={{280,-30.4},{280,-56.2},{278,-56.2}},            color = {0,0,0}, smooth = Smooth.None));
- connect(N26.Pin1,HH7.Pin1)
+ connect(N26.Pin1,PQ7.Pin1)
 annotation(Line(points={{280,-30.4},{280,-42.6},{278,-42.6}},            color = {0,0,0}, smooth = Smooth.None));
  connect(N1.Pin1,L1.Pin1)
 annotation(Line(points={{56,-40},{56,-50}},            color = {0,0,0}, smooth = Smooth.None));
  connect(N114.Pin1,L88.Pin2)
 annotation(Line(points={{296,-268},{296,-258},{297.9,-258}},                color = {0,0,0}, smooth = Smooth.None));
- connect(N114.Pin1,HH44.Pin1)
+ connect(N114.Pin1,PQ44.Pin1)
 annotation(Line(points={{296,-268},{296,-278.6},{294,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N73.Pin1,L76.Pin2)
 annotation(Line(points={{264,-268},{264,-264},{267.3,-264}},                color = {0,0,0}, smooth = Smooth.None));
- connect(N73.Pin1,HH26.Pin1)
+ connect(N73.Pin1,PQ26.Pin1)
 annotation(Line(points={{264,-268},{264,-278.6},{260,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N75.Pin1,L81.Pin2)
 annotation(Line(points={{200,-268},{200,-259.5},{189,-259.5},{189,-267}},                    color = {0,0,0}, smooth = Smooth.None));
- connect(N75.Pin1,HH27.Pin1)
+ connect(N75.Pin1,PQ27.Pin1)
 annotation(Line(points={{200,-268},{200,-278.6},{196,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N77.Pin1,L80.Pin2)
 annotation(Line(points={{172,-268},{172,-268},{173.9,-268}},                color = {0,0,0}, smooth = Smooth.None));
- connect(N77.Pin1,HH28.Pin1)
+ connect(N77.Pin1,PQ28.Pin1)
 annotation(Line(points={{172,-268},{172,-278.6},{168,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N74.Pin1,L64.Pin2)
 annotation(Line(points={{172,-252},{172,-250},{173.9,-250}},                color = {0,0,0}, smooth = Smooth.None));
@@ -1118,7 +1118,7 @@ annotation(Line(points={{172,-252},{172,-259.5},{189,-259.5},{189,-251}},       
 annotation(Line(points={{172,-252},{172,-252},{173.9,-252}},                color = {0,0,0}, smooth = Smooth.None));
  connect(N64.Pin1,L62.Pin2)
 annotation(Line(points={{136,-268},{136,-259.5},{125.1,-259.5},{125.1,-267}},                color = {0,0,0}, smooth = Smooth.None));
- connect(N64.Pin1,HH24.Pin1)
+ connect(N64.Pin1,PQ24.Pin1)
 annotation(Line(points={{136,-268},{136,-278.6},{132,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N36.Pin1,L42.Pin2)
 annotation(Line(points={{42,-204},{42,-201},{40,-201}},                  color = {0,0,0}, smooth = Smooth.None));
@@ -1128,9 +1128,9 @@ annotation(Line(points={{42,-204},{42,-210},{59,-210},{59,-200}},               
 annotation(Line(points={{42,-204},{42,-183.17},{101.4,-183.17},{101.4,-178.3}},            color = {0,0,0}, smooth = Smooth.None));
  connect(N37.Pin1,L40.Pin1)
 annotation(Line(points={{432,-30},{432,-40},{428.1,-40}},                color = {0,0,0}, smooth = Smooth.None));
- connect(N37.Pin1,HH10.Pin1)
+ connect(N37.Pin1,PQ10.Pin1)
 annotation(Line(points={{432,-30},{432,-40.6},{426,-40.6}},              color = {0,0,0}, smooth = Smooth.None));
- connect(N37.Pin1,HH11.Pin1)
+ connect(N37.Pin1,PQ11.Pin1)
 annotation(Line(points={{432,-30},{432,-40.6},{432,-40.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N2.Pin1,L1.Pin2)
 annotation(Line(points={{56,-66},{56,-66}},            color = {0,0,0}, smooth = Smooth.None));
@@ -1148,7 +1148,7 @@ annotation(Line(points={{414,-268},{414,-269}},            color = {0,0,0}, smoo
 annotation(Line(points={{414,-268},{414,-259.5},{403,-259.5},{403,-267}},                    color = {0,0,0}, smooth = Smooth.None));
  connect(N118.Pin1,L121.Pin2)
 annotation(Line(points={{386,-268},{386,-268},{387.9,-268}},                color = {0,0,0}, smooth = Smooth.None));
- connect(N118.Pin1,HH46.Pin1)
+ connect(N118.Pin1,PQ46.Pin1)
 annotation(Line(points={{386,-268},{386,-278.6},{382,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N115.Pin1,L120.Pin1)
 annotation(Line(points={{386,-252},{386,-259.5},{403,-259.5},{403,-251}},                    color = {0,0,0}, smooth = Smooth.None));
@@ -1158,15 +1158,15 @@ annotation(Line(points={{386,-252},{386,-252},{387.9,-252}},                colo
 annotation(Line(points={{386,-252},{386,-250},{387.9,-250}},                color = {0,0,0}, smooth = Smooth.None));
  connect(N100.Pin1,L96.Pin2)
 annotation(Line(points={{356,-268},{356,-258},{357.9,-258}},                color = {0,0,0}, smooth = Smooth.None));
- connect(N100.Pin1,HH38.Pin1)
+ connect(N100.Pin1,PQ38.Pin1)
 annotation(Line(points={{356,-268},{356,-278.6},{352,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N88.Pin1,L90.Pin2)
 annotation(Line(points={{326,-268},{326,-258},{328.1,-258}},                color = {0,0,0}, smooth = Smooth.None));
- connect(N88.Pin1,HH32.Pin1)
+ connect(N88.Pin1,PQ32.Pin1)
 annotation(Line(points={{326,-268},{326,-278.6},{322,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N58.Pin1,L42.Pin1)
 annotation(Line(points={{42,-182},{42,-185},{40,-185}},                  color = {0,0,0}, smooth = Smooth.None));
- connect(N58.Pin1,HH21.Pin1)
+ connect(N58.Pin1,PQ21.Pin1)
 annotation(Line(points={{42,-182},{42,-192.6},{38,-192.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N39.Pin1,L47.Pin1)
 annotation(Line(points={{76,-204},{76,-210},{93,-210},{93,-200}},                        color = {0,0,0}, smooth = Smooth.None));
@@ -1182,7 +1182,7 @@ annotation(Line(points={{87.2,-66},{87.2,-73},{72.6,-73},{72.6,-64}},           
 annotation(Line(points={{87.2,-66},{87.2,-48},{85.2,-48}},            color = {0,0,0}, smooth = Smooth.None));
  connect(N112.Pin1,L104.Pin2)
 annotation(Line(points={{472,-268},{472,-268},{474.1,-268}},                color = {0,0,0}, smooth = Smooth.None));
- connect(N112.Pin1,HH42.Pin1)
+ connect(N112.Pin1,PQ42.Pin1)
 annotation(Line(points={{472,-268},{472,-278.6},{468,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N101.Pin1,L105.Pin1)
 annotation(Line(points={{472,-252},{472,-259.5},{489,-259.5},{489,-251}},                    color = {0,0,0}, smooth = Smooth.None));
@@ -1198,11 +1198,11 @@ annotation(Line(points={{472,-232},{472,-234},{474.1,-234}},                colo
 annotation(Line(points={{472,-232},{472,-237.5},{502,-237.5},{502,-227}},                    color = {0,0,0}, smooth = Smooth.None));
  connect(N124.Pin1,L127.Pin2)
 annotation(Line(points={{442,-286},{442,-277.25},{430,-277.25},{430,-284.5}},                color = {0,0,0}, smooth = Smooth.None));
- connect(N124.Pin1,HH49.Pin1)
+ connect(N124.Pin1,PQ49.Pin1)
 annotation(Line(points={{442,-286},{442,-296.6},{438,-296.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N123.Pin1,L126.Pin2)
 annotation(Line(points={{414,-286},{414,-285}},            color = {0,0,0}, smooth = Smooth.None));
- connect(N123.Pin1,HH48.Pin1)
+ connect(N123.Pin1,PQ48.Pin1)
 annotation(Line(points={{414,-286},{414,-296.6},{410,-296.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N52.Pin1,L59.Pin2)
 annotation(Line(points={{139,-190},{139,-192},{140,-192}},                  color = {0,0,0}, smooth = Smooth.None));
@@ -1236,12 +1236,12 @@ annotation(Line(points={{110,-204},{110,-210},{126,-210},{126,-200}},           
 annotation(Line(points={{110,-204},{110,-210}},            color = {0,0,0}, smooth = Smooth.None));
  connect(N54.Pin1,L46.Pin1)
 annotation(Line(points={{76,-182},{76,-190.5},{74,-190.5}},              color = {0,0,0}, smooth = Smooth.None));
- connect(N54.Pin1,HH19.Pin1)
+ connect(N54.Pin1,PQ19.Pin1)
 annotation(Line(points={{76,-182},{76,-192.6},{72,-192.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N12.Pin1,L7.Pin2)
 annotation(Line(points={{85.6,-30},{86,-30},{86,-46},{85.2,-46}},
                                                        color = {0,0,0}, smooth = Smooth.None));
- connect(N12.Pin1,HH3.Pin1)
+ connect(N12.Pin1,PQ3.Pin1)
 annotation(Line(points={{85.6,-30},{85.6,-40.6},{70,-40.6}},          color = {0,0,0}, smooth = Smooth.None));
  connect(N4.Pin1,L6.Pin1)
 annotation(Line(points={{87.2,-46},{103.2,-46},{103.2,-31}},            color = {0,0,0}, smooth = Smooth.None));
@@ -1275,27 +1275,27 @@ annotation(Line(points={{528,-232},{528,-237.5},{543,-237.5},{543,-227}},       
 annotation(Line(points={{528,-232},{502,-232},{502,-243}},                  color = {0,0,0}, smooth = Smooth.None));
  connect(N103.Pin1,L105.Pin2)
 annotation(Line(points={{500,-268},{500,-259.5},{489,-259.5},{489,-267}},                    color = {0,0,0}, smooth = Smooth.None));
- connect(N103.Pin1,HH39.Pin1)
+ connect(N103.Pin1,PQ39.Pin1)
 annotation(Line(points={{500,-268},{500,-278.6},{496,-278.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N62.Pin1,L56.Pin2)
 annotation(Line(points={{236,-178},{236,-199},{234,-199}},                  color = {0,0,0}, smooth = Smooth.None));
- connect(N62.Pin1,HH23.Pin1)
+ connect(N62.Pin1,PQ23.Pin1)
 annotation(Line(points={{236,-178},{236,-188.6},{232,-188.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N53.Pin1,L54.Pin2)
 annotation(Line(points={{206,-178},{206,-199}},            color = {0,0,0}, smooth = Smooth.None));
- connect(N53.Pin1,HH18.Pin1)
+ connect(N53.Pin1,PQ18.Pin1)
 annotation(Line(points={{206,-178},{206,-188.6},{204,-188.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N55.Pin1,L58.Pin2)
 annotation(Line(points={{174,-178},{158,-178},{158,-199}},                  color = {0,0,0}, smooth = Smooth.None));
- connect(N55.Pin1,HH20.Pin1)
+ connect(N55.Pin1,PQ20.Pin1)
 annotation(Line(points={{174,-178},{174,-188.6},{170,-188.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N59.Pin1,L59.Pin1)
 annotation(Line(points={{142,-178},{142,-176},{140,-176}},                  color = {0,0,0}, smooth = Smooth.None));
- connect(N59.Pin1,HH22.Pin1)
+ connect(N59.Pin1,PQ22.Pin1)
 annotation(Line(points={{142,-178},{142,-188.6},{140,-188.6}},              color = {0,0,0}, smooth = Smooth.None));
  connect(N6.Pin1,L6.Pin2)
 annotation(Line(points={{115.2,-30},{103.2,-30},{103.2,-47}},            color = {0,0,0}, smooth = Smooth.None));
- connect(N6.Pin1,HH1.Pin1)
+ connect(N6.Pin1,PQ1.Pin1)
 annotation(Line(points={{115.2,-30},{115.2,-40.6},{112,-40.6}},          color = {0,0,0}, smooth = Smooth.None));
   connect(SL.Pin1, N1.Pin1)
     annotation (Line(points={{45,-11.8},{56,-11.8},{56,-40}}, color={0,0,0}));
