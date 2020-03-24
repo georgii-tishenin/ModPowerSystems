@@ -4,6 +4,7 @@ function ABCtoDQ_Kundur "Amplitude invariant transform and leading second axis"
   input Real theta;
   output Real f_dq[2];
 
+protected
   constant Real[2,3] K_mat = {{2/3*cos(theta),2/3*cos(theta-2*pi/3),2/3*cos(theta+2*pi/3)},{-2/3*sin(theta),-2/3*sin(theta-2*pi/3),-2/3*sin(theta+2*pi/3)}};
 
 algorithm
