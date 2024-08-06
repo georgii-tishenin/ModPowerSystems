@@ -9,15 +9,15 @@ block InverterPQCtrl
     Placement(visible = true, transformation(origin = {-120, -22}, extent = {{-20, -20}, {20, 20}}, rotation = 0), iconTransformation(origin = {-120, -22}, extent = {{-20, -20}, {20, 20}}, rotation = 0)));
   ModPowerSystems.EmtThreePhase.Control.CurrentCtrl currentCtrl1 annotation(
     Placement(visible = true, transformation(origin = {65, -1}, extent = {{-21, -21}, {21, 21}}, rotation = 0)));
-  inner parameter Real P_ref=500;
-  inner parameter Real Q_ref=200;
+  parameter Real P_ref=500;
+  parameter Real Q_ref=200;
   Modelica.Blocks.Interfaces.RealInput theta annotation(
     Placement(visible = true, transformation(origin = {-120, 20}, extent = {{-20, -20}, {20, 20}}, rotation = 0), iconTransformation(origin = {-120, 20}, extent = {{-20, -20}, {20, 20}}, rotation = 0)));
   ModPowerSystems.EmtThreePhase.Transforms.ABCtoDQ0_Park aBCtoDQ0_Park1 annotation(
     Placement(visible = true, transformation(origin = {-58, 42}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   ModPowerSystems.EmtThreePhase.Transforms.ABCtoDQ0_Park aBCtoDQ0_Park2 annotation(
     Placement(visible = true, transformation(origin = {-56, -68}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
-  ModPowerSystems.EmtThreePhase.Control.PowerCtrl powerCtrl1 annotation(
+  ModPowerSystems.EmtThreePhase.Control.PowerCtrl powerCtrl1(P_ref=P_ref,Q_ref=Q_ref) annotation(
     Placement(visible = true, transformation(origin = { -1, 45}, extent = {{-21, -21}, {21, 21}}, rotation = 0)));
 equation
   connect(aBCtoDQ0_Park2.f_dq, currentCtrl1.I_dq) annotation(

@@ -7,7 +7,7 @@ block PQInverterControl
   parameter Real f_nominal=50 "nominal frequency";
   inner parameter Real P_ref=500;
   inner parameter Real Q_ref=200;
-  ModPowerSystems.EmtThreePhase.Control.PowerCtrl powerCtrl1  annotation(
+  ModPowerSystems.EmtThreePhase.Control.PowerCtrl powerCtrl1(P_ref=P_ref,Q_ref=Q_ref)  annotation(
     Placement(visible = true, transformation(origin = {-11, 13}, extent = {{-13, -13}, {13, 13}}, rotation = 0)));
   inner ModPowerSystems.EmtThreePhase.Measurements.PLL pll1(Kd_pll = K_pll_d, Ki_pll = K_pll_i, Kp_pll = K_pll_p, f_nom = f_nominal) annotation(
     Placement(visible = true, transformation(origin = {-82, 11}, extent = {{-10, -11}, {10, 11}}, rotation = 0)));
