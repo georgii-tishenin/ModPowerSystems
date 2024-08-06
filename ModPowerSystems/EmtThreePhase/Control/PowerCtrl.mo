@@ -19,8 +19,8 @@ block PowerCtrl
   Real phi_q;
 
   // objective P,Q values
-  outer parameter Real P_ref;
-  outer parameter Real Q_ref;
+  parameter Real P_ref;
+  parameter Real Q_ref;
 
   // inner PI controller parameters
   parameter Real Kp_vd=0.001;
