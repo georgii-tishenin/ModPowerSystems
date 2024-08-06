@@ -3,7 +3,7 @@ within ModPowerSystems.EmtThreePhase.Examples.BasicGrids;
 model Slack_RxLine_ZLoad_InverterPQCtrl
   ModPowerSystems.EmtThreePhase.Slack.Slack slack1(Vnom = 380, phiV = 0) annotation(
     Placement(visible = true, transformation(origin = {46, 32}, extent = {{-10, -10}, {10, 10}}, rotation = 180)));
-  ModPowerSystems.EmtThreePhase.Connections.RxLine rxLine1(Vnom = 380, length = 0.2) annotation(
+  ModPowerSystems.EmtThreePhase.Connections.RxLine rxLine1(length = 0.2) annotation(
     Placement(visible = true, transformation(origin = {46, -12}, extent = {{10, -10}, {-10, 10}}, rotation = 90)));
   ModPowerSystems.EmtThreePhase.Loads.ZLoad zLoad1(Pnom = {5e3, 5e3, 5e3}, Qnom = {5e2, 5e2, 5e2}, Vnom = 380) annotation(
     Placement(visible = true, transformation(origin = {46, -52}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
