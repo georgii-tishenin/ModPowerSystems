@@ -3,3 +3,4 @@ PowerCtrl
 CurrentCtrl
 InverterPQCtrl
 DistributedCtrl
+PQInverterControl

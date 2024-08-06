@@ -14,3 +14,4 @@ Microgrid
 VoltageAC_InductionMachine
 SynGen_Park_TPFault_UnitTest_3rdOrderModel
 SynGen_Park_UnitTest_FullModel
+PQInverterExample
