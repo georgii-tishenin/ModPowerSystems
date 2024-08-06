@@ -8,8 +8,7 @@ extends Modelica.Icons.RotationalSensor;
     Placement(visible = true, transformation(origin = {110, 0}, extent = {{-10, -10}, {10, 10}}, rotation = 0), iconTransformation(origin = {110, 0}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   Modelica.Blocks.Interfaces.RealOutput omega annotation(
     Placement(visible = true, transformation(origin = {110, -40}, extent = {{-10, -10}, {10, 10}}, rotation = 0), iconTransformation(origin = {110, -40}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
-  parameter Real f_nom=50;
-  parameter Real omega_nom=2*pi*f_nom;
+  parameter Real omega_nom;
   parameter Real Kp_pll=0.25;
   parameter Real Ki_pll=2;
   parameter Real Kd_pll=1;

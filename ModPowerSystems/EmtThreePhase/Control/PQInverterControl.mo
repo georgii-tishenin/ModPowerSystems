@@ -7,9 +7,10 @@ block PQInverterControl
   parameter Real f_nominal=50 "nominal frequency";
   parameter Real P_ref=500;
   parameter Real Q_ref=200;
-  ModPowerSystems.EmtThreePhase.Control.PowerCtrl powerCtrl1(P_ref=P_ref,Q_ref=Q_ref)  annotation(
+  parameter Real omega_nom = 2*pi*f_nominal;
+  ModPowerSystems.EmtThreePhase.Control.PowerCtrl powerCtrl1(P_ref=P_ref,Q_ref=Q_ref, omega_nom = omega_nom)  annotation(
     Placement(visible = true, transformation(origin = {-11, 13}, extent = {{-13, -13}, {13, 13}}, rotation = 0)));
-  inner ModPowerSystems.EmtThreePhase.Measurements.PLL pll1(Kd_pll = K_pll_d, Ki_pll = K_pll_i, Kp_pll = K_pll_p, f_nom = f_nominal) annotation(
+  ModPowerSystems.EmtThreePhase.Measurements.PLL pll1(Kd_pll = K_pll_d, Ki_pll = K_pll_i, Kp_pll = K_pll_p, omega_nom = omega_nom) annotation(
     Placement(visible = true, transformation(origin = {-82, 11}, extent = {{-10, -11}, {10, 11}}, rotation = 0)));
   Modelica.Blocks.Interfaces.RealInput V_in[3] annotation(
     Placement(visible = true, transformation(origin = {-120, 62}, extent = {{-20, -20}, {20, 20}}, rotation = 0), iconTransformation(origin = {-120, 62}, extent = {{-20, -20}, {20, 20}}, rotation = 0)));
