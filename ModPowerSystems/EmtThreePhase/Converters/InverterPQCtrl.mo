@@ -9,6 +9,7 @@ model InverterPQCtrl
     parameter Real P_obj=4e3 "objective Active Power";
     parameter Real Q_obj=4e2 "objective Reactive Power";
     parameter Real f_nominal=50 "nominal frequency";
+    parameter Real omega_nom = 2*pi*f_nominal;
     parameter Real K_pll_p=0.25 "PLL proportional gain";
     parameter Real K_pll_i=2 "PLL integral gain";
     parameter Real K_pll_d=1 "PLL derivative gain";
@@ -24,11 +25,11 @@ model InverterPQCtrl
       Placement(visible = true, transformation(origin = {-14, -10}, extent = {{-10, -10}, {10, 10}}, rotation = -90)));
     ModPowerSystems.EmtThreePhase.Measurements.VoltageMeasurementABC voltageMeasurementABC1 annotation(
       Placement(visible = true, transformation(origin = {-14, 34}, extent = {{-10, 10}, {10, -10}}, rotation = 0)));
-    inner ModPowerSystems.EmtThreePhase.Measurements.PLL pll1(f_nom=f_nominal,Kp_pll=K_pll_p,Ki_pll=K_pll_i,Kd_pll=K_pll_d) annotation(
+    inner ModPowerSystems.EmtThreePhase.Measurements.PLL pll1(omega_nom=omega_nom,Kp_pll=K_pll_p,Ki_pll=K_pll_i,Kd_pll=K_pll_d) annotation(
       Placement(visible = true, transformation(origin = {64, 76}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
     ModPowerSystems.EmtThreePhase.Basics.VCVS_DQ vCVS_Inv_Av1(Vnom = V_nominal) annotation(
       Placement(visible = true, transformation(origin = {-66, 0}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
-    ModPowerSystems.EmtThreePhase.Control.InverterPQCtrl inv_PQ_Controller1(P_ref = P_obj, Q_ref = Q_obj) annotation(
+    ModPowerSystems.EmtThreePhase.Control.InverterPQCtrl inv_PQ_Controller1(P_ref = P_obj, Q_ref = Q_obj, omega_nom = omega_nom) annotation(
       Placement(visible = true, transformation(origin = {-42, 76}, extent = {{10, -10}, {-10, 10}}, rotation = 0)));
   equation
     connect(voltageMeasurementABC1.v_abc, inv_PQ_Controller1.V_in) annotation(

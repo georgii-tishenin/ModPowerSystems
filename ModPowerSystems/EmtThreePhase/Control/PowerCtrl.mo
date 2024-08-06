@@ -10,6 +10,8 @@ block PowerCtrl
   Modelica.Blocks.Interfaces.RealOutput I_inv_q_con annotation(
     Placement(visible = true, transformation(origin = {108, -14}, extent = {{-10, -10}, {10, 10}}, rotation = 0), iconTransformation(origin = {108, -14}, extent = {{-10, -10}, {10, 10}}, rotation = 0)));
   
+  parameter Real omega_nom;
+  
   // low-pass filtered power input
   Real P;
   Real Q;
@@ -33,7 +35,7 @@ block PowerCtrl
    Real V_d;
    Real V_q;
    
-  outer ModPowerSystems.EmtThreePhase.Measurements.PLL pll1;
+   
 
 equation
   V_d = V_dq[1];
@@ -41,38 +43,16 @@ equation
   I_d = I_dq[1];
   I_q = I_dq[2];
   
-  // calculating power with dq frame values, use (1)
-  // or with inst values, use (2)
-  
-  //****************************************(1)*********************************************
+  // calculating power with dq frame values
   //power input after Low-Pass Filter, eq. 4 and 5 of [2]
-  der(P) = (-1 * P * pll1.omega_nom) 
+  der(P) = (-1 * P * omega_nom) 
           + (3 / 2)
-          * pll1.omega_nom
+          * omega_nom
           * (V_d * I_d + V_q * I_q);
-  der(Q) = (-1 * Q * pll1.omega_nom) 
+  der(Q) = (-1 * Q * omega_nom) 
           + (3 / 2) 
-          * pll1.omega_nom
+          * omega_nom
           * (V_q * I_d - V_d * I_q);
-  //****************************************(1)*********************************************
-
-  //****************************************(2)*********************************************
-  /*
-  der(P)=-1*P*pll1.omega_nom
-           + (3/2) * pll1.omega_nom
-           * ( pll1.V_abc[1] * I_abc[1]
-           + pll1.V_abc[2] * I_abc[2] 
-           + pll1.V_abc[3] * I_abc[3]);
-  */
-  
-  /*
-  der(Q)= -1 * Q * pll1.omega_nom
-           + (3/2) * pll1.omega_nom * (1/sqrt(3))
-           * ((pll1.V_abc[2] - pll1.V_abc[3]) * I_abc[1]
-           - (pll1.V_abc[3] - pll1.V_abc[1]) * I_abc[2]
-           - (pll1.V_abc[1] - pll1.V_abc[2]) * I_abc[3]);
-  */
-  //****************************************(2)*********************************************
 
   // eq. 6 and 7 of [2]
   der(phi_d) = P_ref - P;
